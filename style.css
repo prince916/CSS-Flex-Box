@@ -1,0 +1,33 @@
+.orientation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    margin: 12px;
+    border-radius: 10px;
+    transition: all 1s;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    font-size: 40px;
+    
+    font-family:sans-serif;
+    border-bottom: 5px solid rgb(255, 2, 103);
+    width: 400px;
+    text-align: center;
+    border-right: 5px solid rgb(255, 2, 103);
+    box-shadow: 4px 4px 5px rgb(191, 166, 166);
+}
+
+body{
+    margin: 0px;
+}
